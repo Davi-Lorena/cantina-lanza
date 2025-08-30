@@ -29,8 +29,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className={`${playfair.variable} ${openSans.variable} antialiased`}>
+      <body>
       <Nav />
-      <body>{children}</body>
+
+        {children}
+        </body>
     </html>
   )
 }
