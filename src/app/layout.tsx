@@ -2,7 +2,7 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Playfair_Display, Open_Sans } from "next/font/google"
 import "./globals.css"
-import { Nav } from "@/Components"
+import { Nav } from "@/Components/nav"
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
